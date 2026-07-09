@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.button{
+    background-color: blue;
+    color: white;
+    border: none;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 50px 15px;
+    align-items: center;
+}
+.navbar button{
+    width:140px ;
+    height: 30px;
+    border-radius: 8px;
+}
+.nav-list{
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    color:gray;
+}
+.nav-list li{
+    list-style: none;
+}

@@ -1,3 +1,4 @@
+/*Universal and Common use*/
 * {
     margin: 0;
     padding: 0;
@@ -7,6 +8,11 @@
     color: white;
     border: none;
 }
+.container{
+    max-width: 1050px;
+    margin: auto;
+}
+/*Nav Bar Decoration*/
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -27,6 +33,7 @@
 .nav-list li {
     list-style: none;
 }
+/*Header Decoration*/
 .header {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), transparent), url("./assets/banner.jpg");
     height: 90vh;
@@ -50,3 +57,43 @@
      width: 130px;
      border-radius: 8px;
 }
+/*Body or Main part Decoration*/
+.Introduction{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    justify-content: center;
+    border-radius: 8px;
+    
+}
+.Speakers{
+    margin-top: 50px;
+}
+.Speakers h1{
+    text-align: center;
+    padding: 20px;
+}
+
+.Introduction-Details{
+    background-color: rgb(243, 242, 242);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.Introduction-Details img{
+    width: 100%;
+    display: block;
+}
+.position{
+    padding: 12px;
+    display: grid;
+    gap: 4px;
+}
+.position span{
+    color: blue;
+    font-size: 13px;
+}
+.position p{
+    color: gray;
+}
+
+

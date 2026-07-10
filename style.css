@@ -34,7 +34,10 @@ text-decoration: none;
     display: flex;
     justify-content: space-between;
     gap: 12px;
-    color: #333333;
+
+}
+.nav-list a{
+     color: rgb(104, 103, 103);
 }
 .nav-list li {
     list-style: none;
@@ -78,7 +81,7 @@ text-decoration: none;
 }
 .Speakers h1{
     text-align: center;
-    padding: 15px;
+    padding-top: 70px ;
 }
 
 .Introduction-Details{
@@ -110,7 +113,7 @@ text-decoration: none;
     padding: 20px;
 }
 .container{
-    margin: 100px;
+    margin:100px; 
     line-height: 30px;
 }
 .container .title{
